@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Newton School Coding Club (NSCC), SRMIST — A student developer collective cultivating systems thinking, algorithmic foundations, and software engineering.">
+  <title>Newton School Coding Club — SRMIST</title>
+
+  <!-- Typography: Inter & JetBrains Mono for Editorial Technology Aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Scoped Stylesheet -->
+  <link rel="stylesheet" href="styles/hero.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       HERO SECTION WRAPPER
+       Aesthetic: Restrained Editorial Technology with Intersecting Geometric Facets
+       Brand: Newton School Coding Club, SRMIST
+       ========================================================================= -->
+  <div class="nscc-hero-wrapper">
+    <!-- Art-Directed Architectural Geometric Artwork -->
+    <div class="nscc-hero-bg-art" aria-hidden="true">
+      <svg class="nscc-hero-bg-svg" viewBox="0 0 1440 900" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <!-- Subtle linear gradients for planar facet depth -->
+          <linearGradient id="nscc-plane-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#52d2ce" stop-opacity="0.03" />
+            <stop offset="100%" stop-color="#52d2ce" stop-opacity="0.004" />
+          </linearGradient>
+          <linearGradient id="nscc-plane-blue" x1="100%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#719de6" stop-opacity="0.025" />
+            <stop offset="100%" stop-color="#719de6" stop-opacity="0.003" />
+          </linearGradient>
+          <linearGradient id="nscc-axis-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#52d2ce" stop-opacity="0.06" />
+            <stop offset="50%" stop-color="#719de6" stop-opacity="0.025" />
+            <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+
+        <!-- Architectural Horizon & Baseline Datum Guides -->
+        <line x1="80" y1="120" x2="1360" y2="120" stroke="rgba(255, 255, 255, 0.018)" stroke-width="1" />
+        <line x1="80" y1="800" x2="1360" y2="800" stroke="rgba(255, 255, 255, 0.018)" stroke-width="1" />
+
+        <!-- Structural Column Guidelines (Aligning with container margins) -->
+        <line x1="120" y1="50" x2="120" y2="850" stroke="rgba(255, 255, 255, 0.015)" stroke-width="1" />
+        <line x1="1320" y1="50" x2="1320" y2="850" stroke="rgba(255, 255, 255, 0.015)" stroke-width="1" />
+
+        <!-- Distinctive Angular Geometric Construction (Strongest facets anchoring logo panel) -->
+        <g class="nscc-geom-cluster">
+          <!-- Intersecting Planar Facet 1: Upper Crest behind logo panel -->
+          <polygon points="940,230 1140,110 1300,210 1100,330" fill="url(#nscc-plane-cyan)" stroke="rgba(82, 210, 206, 0.065)" stroke-width="1" />
+          
+          <!-- Intersecting Planar Facet 2: Lateral Isometric Core aligned with panel -->
+          <polygon points="1100,330 1300,210 1360,430 1160,550" fill="url(#nscc-plane-blue)" stroke="rgba(113, 157, 230, 0.055)" stroke-width="1" />
+          
+          <!-- Intersecting Planar Facet 3: Lower Extension descending toward bottom viewport -->
+          <polygon points="880,520 1100,430 1180,680 960,770" fill="url(#nscc-plane-cyan)" stroke="rgba(82, 210, 206, 0.05)" stroke-width="1" />
+
+          <!-- Precision 45-degree Angular Projection Vectors -->
+          <line x1="520" y1="880" x2="1280" y2="120" stroke="url(#nscc-axis-grad)" stroke-width="1" stroke-dasharray="4 8" />
+          <line x1="940" y1="550" x2="650" y2="840" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1" />
+
+          <!-- Precision Node Crosshairs (+) at Key Geometric Facet Vertices -->
+          <path d="M 935 230 h 10 M 940 225 v 10" stroke="rgba(82, 210, 206, 0.12)" stroke-width="1" />
+          <path d="M 1135 110 h 10 M 1140 105 v 10" stroke="rgba(82, 210, 206, 0.1)" stroke-width="1" />
+          <path d="M 1095 330 h 10 M 1100 325 v 10" stroke="rgba(82, 210, 206, 0.12)" stroke-width="1" />
+          <path d="M 955 770 h 10 M 960 765 v 10" stroke="rgba(82, 210, 206, 0.09)" stroke-width="1" />
+        </g>
+
+        <!-- Peripheral Coordinate Crosshairs on Datum Axes -->
+        <path d="M 115 120 h 10 M 120 115 v 10" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+        <path d="M 1315 120 h 10 M 1320 115 v 10" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+        <path d="M 115 800 h 10 M 120 795 v 10" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+        <path d="M 1315 800 h 10 M 1320 795 v 10" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+      </svg>
+    </div>
+
+    <!-- Clean Header -->
+    <header class="nscc-header">
+      <div class="nscc-brand-badge">
+        <img src="assets/nscc-logo.png" alt="" class="nscc-brand-badge__emblem-sm" width="24" height="24" aria-hidden="true">
+        <span>NSCC SRMIST</span>
+      </div>
+
+      <nav class="nscc-nav-links" aria-label="Main navigation">
+        <a href="#projects" class="nscc-nav-link">PROJECTS</a>
+        <a href="#community" class="nscc-nav-link">COMMUNITY</a>
+      </nav>
+    </header>
+
+    <!-- Main Hero Section -->
+    <main>
+      <section id="hero" class="nscc-hero" aria-labelledby="hero-title">
+        
+        <!-- Left Column: Official Club Headline & Actions -->
+        <div class="nscc-hero__content">
+          <h1 id="hero-title" class="nscc-hero__headline">
+            <span class="nscc-hero__headline-line">NEWTON SCHOOL</span>
+            <span class="nscc-hero__headline-line nscc-hero__headline-accent">CODING CLUB</span>
+            <span class="nscc-hero__headline-line">SRMIST.</span>
+          </h1>
+
+          <p class="nscc-hero__supporting-text">
+            Newton School Coding Club at SRMIST is a collective of student developers, systems builders, and algorithmic problem-solvers shipping software that matters.
+          </p>
+
+          <div class="nscc-hero__actions">
+            <a href="#projects" class="nscc-btn nscc-btn--primary">
+              <span>Explore Projects</span>
+              <svg class="nscc-btn__arrow" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4"/>
+              </svg>
+            </a>
+
+            <div class="nscc-hero__socials" aria-label="Official Social Profiles">
+              <a 
+                href="https://in.linkedin.com/company/newton-school-coding-club-srmist" 
+                class="nscc-social-link" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="NSCC SRMIST on LinkedIn"
+              >
+                <svg class="nscc-social-icon" viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+
+              <a 
+                href="https://www.instagram.com/nscc_srm/" 
+                class="nscc-social-link" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="NSCC SRMIST on Instagram"
+              >
+                <svg class="nscc-social-icon" viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Art-Directed Architectural Logo Composition -->
+        <div class="nscc-hero__visual">
+          <div class="nscc-logo-composition">
+            <!-- Asymmetrical architectural backplate datum -->
+            <div class="nscc-logo-composition__datum" aria-hidden="true"></div>
+
+            <div class="nscc-logo-panel" aria-label="Newton School Coding Club Emblem">
+              <img 
+                src="assets/nscc-logo.png" 
+                alt="Newton School Coding Club Emblem" 
+                class="nscc-logo-panel__img"
+                width="220" 
+                height="220"
+                loading="eager"
+                decoding="sync"
+              >
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </div>
+
+  <!-- Downstream Docking Anchor (Target for Projects Section) -->
+  <section id="projects" style="padding: 4rem 1.5rem; text-align: center; border-top: 1px dashed var(--nscc-border-subtle); color: var(--nscc-text-muted); font-family: var(--nscc-font-mono); font-size: 0.8125rem;">
+    <span>[PROJECTS SECTION DOCKING POINT — RESERVED FOR DOWNSTREAM IMPLEMENTATION]</span>
+  </section>
+
+  <!-- Lightweight Controller Script -->
+  <script src="scripts/hero.js"></script>
+</body>
+</html>
